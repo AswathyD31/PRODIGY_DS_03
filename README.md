@@ -40,7 +40,7 @@ The Bank Marketing Additional Dataset contains information about direct marketin
 
 ## Exploratory Data Analysis (EDA) Process
 
-### **Data Cleaning:**
+### **1.Data Cleaning:**
 
 * Checked and removed duplicate rows and missing values.
 
@@ -51,7 +51,7 @@ The Bank Marketing Additional Dataset contains information about direct marketin
 * Reduced skewness in highly skewed numerical columns using log transformation.
 
 
-### **Data Visualization:**
+### **2.Data Visualization:**
 
 * Count plots showed distribution of clients' responses across job types, marital status, and other demographics.
 
@@ -59,11 +59,11 @@ The Bank Marketing Additional Dataset contains information about direct marketin
 
 * Correlation heatmaps visualized relationships between economic indicators and campaign features.
 
-### **Machine Learning Model**
+### **3.Machine Learning Model**
 
 * Built a Decision Tree Classifier to predict client subscription (y).
 
-### **Evaluated model performance using:**
+### **4.Evaluated model performance using:**
 
 * Accuracy score
 
@@ -73,17 +73,19 @@ The Bank Marketing Additional Dataset contains information about direct marketin
 
 * Plotted the decision tree for better interpretability.
 
-### **Key Insights**
+## **Key Insights**
 
 * Duration of the last call is a strong predictor of success.
 
 * Clients with higher education, younger age, and no default history showed higher subscription rates.
 
-Economic indicators like emp.var.rate and euribor3m showed some influence on client decisions.
+* Economic indicators like emp.var.rate and euribor3m showed some influence on client decisions.
 
-Contacted clients in certain months (e.g., March, December) had better response rates.
+* Contacted clients in certain months (e.g., March, December) had better response rates.
 
-✅ Conclusion
+## Conclusion
+___________
+
 This project provided valuable insights 🌟 into customer behavior during marketing campaigns. The model successfully predicted term deposit subscriptions, offering a foundation for optimizing future marketing strategies.
 
 🙏 Thank you for reviewing my submission!
